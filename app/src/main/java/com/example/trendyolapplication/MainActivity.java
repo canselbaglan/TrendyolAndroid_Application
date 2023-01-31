@@ -21,12 +21,12 @@ public class MainActivity extends AppCompatActivity {
         binding.rv.setLayoutManager(new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL));
 
         ArrayList<Urunler>urunlerListesi = new ArrayList<>();
-        Urunler u1= new Urunler(1,"TrendyolMilla Mavi Blazer","blazer",180.99);
-        Urunler u2= new Urunler(2,"Koton Krem Uzun Kaban","kaban",250.99);
-        Urunler u3= new Urunler(3,"Defacto Kırmızı Kaban","kaban2",450.99);
-        Urunler u4= new Urunler(4,"Lc Wakiki Kahverengi Mont","mont1",285.99);
-        Urunler u5= new Urunler(5,"Mango Siyah Şişme Mont","mont2",789.99);
-        Urunler u6= new Urunler(6,"Mavi Kırmızı Sweatshirt","sweatshirt",195.99);
+        Urunler u1= new Urunler(1,"TrendyolMilla Mavi Blazer","blazer",599.99);
+        Urunler u2= new Urunler(2,"Koton Krem Uzun Kaban","kaban",799.99);
+        Urunler u3= new Urunler(3,"Defacto Kırmızı Kaban","kaban2",499.99);
+        Urunler u4= new Urunler(4,"Batik Kahverengi Mont","mont1",699.99);
+        Urunler u5= new Urunler(5,"Mango Siyah Şişme Mont","mont2",799.99);
+        Urunler u6= new Urunler(6,"Mavi Kırmızı Sweatshirt","sweatshirt",399.99);
 
         urunlerListesi.add(u1);
         urunlerListesi.add(u2);

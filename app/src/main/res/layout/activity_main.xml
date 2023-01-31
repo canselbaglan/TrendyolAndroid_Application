@@ -25,19 +25,17 @@
         android:id="@+id/rv"
         android:layout_width="435dp"
         android:layout_height="485dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="76dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
         app:layout_constraintTop_toBottomOf="@+id/searchview"
         /></androidx.recyclerview.widget.RecyclerView>
 
     <Button
         android:id="@+id/buttonkargo"
-        android:layout_width="178dp"
-        android:layout_height="53dp"
-        android:layout_marginBottom="19dp"
+        android:layout_width="185dp"
+        android:layout_height="57dp"
         android:backgroundTint="@color/yesil"
         android:text="24 Saatte Kargoda"
         app:layout_constraintBottom_toTopOf="@+id/rv"
@@ -47,9 +45,8 @@
 
     <Button
         android:id="@+id/buttonİndirim"
-        android:layout_width="189dp"
-        android:layout_height="55dp"
-        android:layout_marginBottom="19dp"
+        android:layout_width="185dp"
+        android:layout_height="57dp"
         android:backgroundTint="@color/turuncu"
         android:text="2. Ürüne %50 İndirim"
         app:layout_constraintBottom_toTopOf="@+id/rv"

@@ -18,10 +18,12 @@
 
             <ImageView
                 android:id="@+id/imageViewUrun"
-                android:layout_width="151dp"
-                android:layout_height="277dp"
+                android:layout_width="168dp"
+                android:layout_height="241dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_bias="0.36"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/blazer" />
@@ -30,12 +32,13 @@
                 android:id="@+id/textViewAciklama"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:text="TrendyolMilla Mavi Blazer Ceket"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:text="TrendyolMilla Mavi Blazer"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_bias="0.392"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageViewUrun" />
 
@@ -44,7 +47,7 @@
                 style="?android:attr/ratingBarStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="114dp"
+                android:layout_marginStart="120dp"
                 android:layout_marginTop="3dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="5dp"
@@ -54,15 +57,16 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textViewFiyat"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textViewAciklama" />
+                app:layout_constraintTop_toBottomOf="@+id/textViewAciklama"
+                app:layout_constraintVertical_bias="0.0" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="24dp"
                 android:layout_height="22dp"
-                android:layout_marginStart="136dp"
-                android:layout_marginTop="40dp"
-                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="132dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="@+id/imageViewUrun"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/beyaz_favori" />
 
@@ -80,7 +84,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/ratingBar2"
                 app:layout_constraintTop_toBottomOf="@+id/textViewAciklama"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="0.132" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
